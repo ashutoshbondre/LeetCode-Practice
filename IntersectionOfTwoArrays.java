@@ -13,7 +13,9 @@ public class Solution {
         }
         int[] result = new int[intersect.size()];
         int i = 0;
-        for (Integer num : intersect) {
+        for (Integer num : intersect)
+        {
+            
             result[i++] = num;
         }
         return result;
