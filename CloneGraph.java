@@ -13,7 +13,8 @@ public class Solution {
         return clone(node);
     }
 
-    private UndirectedGraphNode clone(UndirectedGraphNode node) {
+    private UndirectedGraphNode clone(UndirectedGraphNode node) 
+    {
         if (node == null) return null;
         
         if (map.containsKey(node.label)) {
