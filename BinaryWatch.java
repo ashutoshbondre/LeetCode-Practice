@@ -5,6 +5,7 @@ public class Solution {
         {
             for(int m=0;m<60;m++)
             {
+                
                 if(Integer.bitCount(h) + Integer.bitCount(m)==num)
                 times.add(String.format("%d:%02d",h,m));
             }
